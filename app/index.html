@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body><!-- Body element contains the document's body elements-->
+    
+    <h1>Welcome to Amanda's World! </h1>
+    
+    <!-- background picture -->
+    <img id="background" src="https://cdn.glitch.global/92d44696-4ef0-4276-9078-f1e3b3aaceb3/cherry.jpg?v=1656571953115">
+    
+    <p><!-- Paragraph element contains a paragraph. -->
+      Follow the adventures of my dogs <a href="https://instagram.com/that.goldendog">here</a>!<!-- Link element to an external page. -->
+    </p>
+    
+    <div class="instructions">
+          <h2>
+            About Me
+          </h2>
+          <p><!-- Paragraph element contains a paragraph. -->
+            My name is Amanda and I am new to Web Development.
+            I hope to learn to creating custom webpages and learn more about UX Design.
+          <p>
+          
+          <!-- Below is a list and nested list to layout things I like. -->
+          <h2> My Favorite Things </h2> <!-- h2 element is a header that is smaller than header 1 (h1). -->
+          <ol type="1"> <!-- Ordered list type = 1 is an ordered list that is ordered by numbers. -->
+            <li>Favorite Programming Languages
+              <ol type = "a"> <!-- Ordered list that is ordered by lowercase letters. -->
+                <li> Python </li>
+                <li> Java </li>
+                <li> C++ </li>
+          </ol>
+              
+              <p>
+              "Music can change the world, because it can change people. ~Bono"
+              </p>
+              <p>
+                <a href="https://www.youtube.com/watch?v=__H1paJMxuU">Click Here for ♫♪♪</a> 
+              </p>
+        
+            </li>
+            
+            
+            <li>Favorite Hobbies
+              <ol type="A"> <!-- Nested list which demonstrates a list inside of a list.-->
+                <li> Sketching </li>
+                <li> Listening to Music </li>
+                <li> Cooking/Baking </li>
+                <li> Reading <br/> <br></li>
+              </ol>
+            </li>
+            
+            <li>Favorite Music Genres
+              <ul style="list-style-type:circle;"> <!-- Inline styling creating an unordered list with circle style. First bullet type-->
+                <li> EDM </li>
+                <li> Pop </li>
+                <li> R&B </li>
+                <li> Hip Hop <br/> <br></li>
+              </ul>
+            </li>
+            
+            <li>Favorite Sports
+              <ul style="list-style-type:square;"> <!-- Unordered list with square style. Second bullet type-->
+                <li> Basketball </li>
+                <li> Soccer <br/> <br></li>
+              </ul>
+            </li>
+            
+            
+            <li>Favorite Animals 
+              <ul id="dog"> <!-- Unordered list with emoji bullet points -->
+                <li> Dog</li>
+              </ul>
+              <ul id="cat"> <!-- Unordered list with emoji bullet points -->
+                <li> Cat <br/> <br></li>
+              </ul>
+            </li>
+          </ol> 
+      
+          <p>
+            This is a test <strong>personal webpage </strong> project where I am testing
+            different HTML & CSS components.
+          </p>
+          
+          <!-- Button for user to click, should go to another link -->
+          <button>
+          Click me!
+          </button>
+          <!-- Function of button is made in script.js -->
+          
+        </div>
+    
+    
+    
+    <p>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </p>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>

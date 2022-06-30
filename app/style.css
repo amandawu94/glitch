@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+
+
+body {
+  font-family: courier new;/* Font family element for the body determining font style*/
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #9aa297;/* Color element for h1, hex code for heather grey*/
+}
+
+/*formatting and configuring the background photo*/
+#background{
+		position:fixed;
+		top:0px;
+		left:0px;
+		height:100%;
+		width:100%;
+		z-index:-999;
+	}
+
+ul#dog li {  /* Custom bullets using emojis */
+  list-style-type: '🐶 ';
+  padding-inline-start: 1ch;
+}
+
+ul#cat li {  /* Custom bullets using emojis */
+  list-style-type: '🐱';
+  padding-inline-start: 1ch;
+}
+
+
